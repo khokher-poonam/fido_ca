@@ -55,7 +55,7 @@ page.billing((String)data[5]);
         Thread.sleep(3000);
 page.additional_comment((String)data[6]);
 page.scrollpage();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
 
 //        page.continue_lastBtn();
