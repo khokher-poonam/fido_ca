@@ -1,0 +1,12 @@
+co\fido\qa\selenium\Listener\ScreenshotListener.class
+co\fido\qa\selenium\Pages\HomePage.class
+co\fido\qa\selenium\Config\Config.class
+co\fido\qa\selenium\Reports\HtmlReports.class
+co\fido\qa\selenium\Data\ExcelData.class
+co\fido\qa\selenium\Utils\CaptureType.class
+co\fido\qa\selenium\Pages\PhonePage.class
+co\fido\qa\selenium\DriverManager\BrowserType.class
+co\fido\qa\selenium\TestCases\HomePageTest.class
+co\fido\qa\selenium\TestCases\PhonePageTest.class
+co\fido\qa\selenium\Utils\FrameWorkUtls.class
+co\fido\qa\selenium\DriverManager\DriverManager.class
