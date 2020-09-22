@@ -54,8 +54,9 @@ page.billing((String)data[5]);
 //page.shipp_add();
         Thread.sleep(3000);
 page.additional_comment((String)data[6]);
-//page.scrollpage();
+page.scrollpage();
         Thread.sleep(3000);
+
 
 //        page.continue_lastBtn();
     }
