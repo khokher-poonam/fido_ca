@@ -4,7 +4,9 @@ import co.fido.qa.selenium.Config.Config;
 import co.fido.qa.selenium.DriverManager.DriverManager;
 import co.fido.qa.selenium.Listener.ScreenshotListener;
 import co.fido.qa.selenium.Pages.HomePage;
+import org.apache.http.util.Asserts;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
@@ -24,6 +26,7 @@ public class HomePageTest {
     public void HomePageTest() throws InterruptedException {
         HomePage page;
         page = new HomePage(driver);
+    Assert.assertEquals("Phones, Plans and More - Go Get It | Fido",driver.getTitle());
         page.shopLink();
 
     }

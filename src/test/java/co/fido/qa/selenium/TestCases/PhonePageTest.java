@@ -25,7 +25,6 @@ public class PhonePageTest {
         Thread.sleep(1000);
 
         page.samsungViewBtn();
-        Assert.assertEquals("Cell Phone Plans - Data, Talk and Text Plans | Fido",driver.getTitle());
         Thread.sleep(2000);
         page.getStartedBtn();
 //        driver.navigate().back();
