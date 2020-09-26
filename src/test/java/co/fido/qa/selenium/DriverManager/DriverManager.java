@@ -36,7 +36,7 @@ public class DriverManager {
     public static  WebDriver getDriver(){
         if(driverManager == null){
             driverManager =new DriverManager();
-Config.getProperty("url");
+//Config.getProperty("url");
         }
         return driverManager.webDriver;
     }

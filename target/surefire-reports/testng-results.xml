@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-26T16:21:14Z" name="FidoCanada Test Suite" finished-at="2020-09-26T16:21:54Z" duration-ms="39540">
+  <suite started-at="2020-09-26T21:55:13Z" name="FidoCanada Test Suite" finished-at="2020-09-26T21:56:03Z" duration-ms="50299">
     <groups>
     </groups>
-    <test started-at="2020-09-26T16:21:14Z" name="Dashboard Login Suit" finished-at="2020-09-26T16:21:54Z" duration-ms="39540">
+    <test started-at="2020-09-26T21:55:13Z" name="Dashboard Login Suit" finished-at="2020-09-26T21:56:03Z" duration-ms="50299">
       <class name="co.fido.qa.selenium.TestCases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T16:21:10Z" name="setUp" finished-at="2020-09-26T16:21:14Z" duration-ms="3927" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T21:55:08Z" name="setUp" finished-at="2020-09-26T21:55:13Z" duration-ms="5516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="HomePageTest()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T16:21:14Z" name="HomePageTest" finished-at="2020-09-26T16:21:19Z" duration-ms="4695" status="PASS">
+        <test-method signature="HomePageTest()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T21:55:13Z" name="HomePageTest" finished-at="2020-09-26T21:55:18Z" duration-ms="4920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T16:21:54Z" name="tearDown" finished-at="2020-09-26T16:21:55Z" duration-ms="722" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.fido.qa.selenium.TestCases.HomePageTest@412c995d]" started-at="2020-09-26T21:56:04Z" name="tearDown" finished-at="2020-09-26T21:56:04Z" duration-ms="932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- co.fido.qa.selenium.TestCases.HomePageTest -->
       <class name="co.fido.qa.selenium.TestCases.PhonePageTest">
-        <test-method signature="PhonePageTest([Ljava.lang.Object;)[pri:0, instance:co.fido.qa.selenium.TestCases.PhonePageTest@3249a1ce]" started-at="2020-09-26T16:21:21Z" name="PhonePageTest" data-provider="fido_dataProvider" finished-at="2020-09-26T16:21:53Z" duration-ms="32671" status="PASS">
+        <test-method signature="PhonePageTest([Ljava.lang.Object;)[pri:0, instance:co.fido.qa.selenium.TestCases.PhonePageTest@3249a1ce]" started-at="2020-09-26T21:55:21Z" name="PhonePageTest" data-provider="fido_dataProvider" finished-at="2020-09-26T21:56:02Z" duration-ms="41836" status="PASS">
           <params>
             <param index="0">
               <value>
