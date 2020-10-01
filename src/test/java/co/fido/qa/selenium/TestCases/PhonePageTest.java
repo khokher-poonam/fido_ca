@@ -2,21 +2,23 @@ package co.fido.qa.selenium.TestCases;
 
 import co.fido.qa.selenium.Data.ExcelData;
 import co.fido.qa.selenium.DriverManager.DriverManager;
-import co.fido.qa.selenium.Listener.ScreenshotListener;
+import co.fido.qa.selenium.Listeners.ScreenshotListener;
 import co.fido.qa.selenium.Pages.PhonePage;
-import org.openqa.selenium.By;
+import co.fido.qa.selenium.reports.HtmlReports;
+import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners({ScreenshotListener.class})
 public class PhonePageTest {
 
     WebDriver driver= DriverManager.getDriver();
+    ExtentTest test = HtmlReports.getReport().createTest("PhonePageTest");
 
     @Test(enabled = true,dataProvider = "fido_dataProvider" ,dataProviderClass = ExcelData.class)
     public void PhonePageTest(Object[] data) throws InterruptedException {
+
         PhonePage page=new PhonePage(driver);
         page.samsungLinks();
         Thread.sleep(1000);
@@ -52,11 +54,14 @@ page.contact_no(data[4]);
 page.billing((String)data[5]);
 //page.shipp_add();
         Thread.sleep(3000);
-page.additional_comment((String)data[6]);
+//page.additional_comment((String)data[6]);
 page.scrollpage();
 
 
 //        page.continue_lastBtn();
     }
-
+    @AfterClass
+    public void flush(){
+        HtmlReports.getReport().flush();
+    }
 }

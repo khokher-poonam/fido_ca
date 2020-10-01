@@ -164,7 +164,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;FidoCanada Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;co.fido.qa.selenium.Listener.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;co.fido.qa.selenium.Listeners.ScreenshotListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Dashboard Login Suit&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
@@ -213,16 +213,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'PhonePageTest')
 data.setCell(0, 2, 'co.fido.qa.selenium.TestCases.PhonePageTest')
-data.setCell(0, 3, 41836);
+data.setCell(0, 3, 39871);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'HomePageTest')
 data.setCell(1, 2, 'co.fido.qa.selenium.TestCases.HomePageTest')
-data.setCell(1, 3, 4920);
+data.setCell(1, 3, 5288);
 window.suiteTableData['FidoCanada_Test_Suite']= { tableData: data, tableDiv: 'times-div-FidoCanada_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-FidoCanada_Test_Suite">
               </div> <!-- times-div-FidoCanada_Test_Suite -->
             </div> <!-- times-div -->
@@ -255,21 +255,29 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">HomePageTest</span>
-                <span class="method-start">5543 ms</span>
+                <span class="method-start">4860 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">flush</span>
+                <span class="method-start">11472 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">co.fido.qa.selenium.TestCases.PhonePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">PhonePageTest([StacyCotwan@gmail.com, StacyCotwan@gmail.com, Stacy, Cotwan, 898-766-9768, 22 Hillson Crt - Brampto...)</span>
-                <span class="method-start">12904 ms</span>
+                <span class="method-start">14330 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">flush</span>
+                <span class="method-start">55995 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">co.fido.qa.selenium.TestCases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">55871 ms</span>
+                <span class="method-start">56267 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

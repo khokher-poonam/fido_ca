@@ -148,7 +148,9 @@ public PhonePage CheckoutBtn()
 //        Select select=new Select(billingaddress);
 //        select.selectByVisibleText("22 Hillson Crt - Brampton, ON, L6P 1C4");
         this.billingaddress.sendKeys(ba);
-        billingaddress.click();
+        this.billingaddress.click();
+//        Actions act=new Actions(driver);
+//        act.moveToElement(driver.findElement(By.xpath("//ul//li[@class='ng-star-inserted']"))).click().build().perform();
 //        this.billingaddress.sendKeys(ba.trim());
 //        billingaddress.sendKeys(Keys.DOWN);
 //        billingaddress.sendKeys(Keys.ENTER);

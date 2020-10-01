@@ -2,14 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name ="FidoCanada Test Suite">
     <listeners>
-        <listener class-name="co.fido.qa.selenium.Listener.ScreenshotListener"></listener>
+        <listener class-name="co.fido.qa.selenium.Listeners.ScreenshotListener"></listener>
     </listeners>
     <test name ="Dashboard Login Suit">
        
         <classes>
+
             <class name="co.fido.qa.selenium.TestCases.HomePageTest"></class>
             <class name="co.fido.qa.selenium.TestCases.PhonePageTest"></class>
-            
+<!--            <class name="co.fido.qa.selenium.TestCases.DummyTest"></class>-->
+
         </classes>
     </test>
 </suite>

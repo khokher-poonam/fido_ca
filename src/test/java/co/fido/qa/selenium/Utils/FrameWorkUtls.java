@@ -4,6 +4,7 @@ import co.fido.qa.selenium.Config.Config;
 import co.fido.qa.selenium.DriverManager.DriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,6 +17,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FrameWorkUtls {
+    // creating directory for screenshot
+    // creating directory for reports
+    // genrateing pattern or name for screenshot files
+    // generating pattern of name for reports files
+
 
     private static Map<String, String> testcaseScreenShotMap = new HashMap<>();
 
@@ -61,6 +67,7 @@ public class FrameWorkUtls {
         testcaseScreenShotMap.put(testCase,path.toString());
         return path.toString();
     }
+
     public static File getReportFile(){
         createDirs("report");
         SimpleDateFormat format = new SimpleDateFormat(Config.getProperty("screenshot.file.pattern"));
@@ -73,3 +80,10 @@ public class FrameWorkUtls {
 
     }
 }
+
+
+
+
+
+
+
